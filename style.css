@@ -3,7 +3,7 @@ body{
     background-color: rgb(248, 229, 214);
     .container{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: baseline;
         column-gap: 50px;
         /* this is the only flex propriety  */
@@ -27,11 +27,16 @@ body{
             width: 120px;
             background-color: rgba(232, 128, 38, 0.958);
         }
-        .bigContent{
+        .logo{
+            display: flex;
+            align-self: flex-start;
+        }
+        /* .bigContent{
             font-size: 50px;
             order: 0;
             flex-grow: 1;
-            /* flex-shrink: 3; */
-        }
+            flex-shrink: 3;
+        } 
+        */
     }
 }

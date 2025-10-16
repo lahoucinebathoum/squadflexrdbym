@@ -1,0 +1,20 @@
+body{
+    margin: 0%;
+    .container{
+        display: flex;
+        justify-content: center;
+        column-gap: 50px;
+        background-color: rgba(196, 196, 196, 0.597);
+        .items{
+            background-color: rgba(244, 134, 197, 0.597);
+            font-size: 18px;
+            font-family:'Times New Roman';
+            border: 1px solid rgba(229, 87, 87, 0.709);
+            color: aliceblue;
+            
+        }
+        .items:hover{
+            color: black;
+        }
+    }
+}
