@@ -1,0 +1,29 @@
+header{font-size: 500%;
+display: flex;flex-direction: row;
+justify-content: space-between;
+background-color: rgb(70, 201, 166);}
+body{
+  background-image: URL(beautiful-blurred-background-bright-classroom-600nw-2475753339.webp);
+     background-size: cover;background-repeat: no-repeat;  
+  
+   }
+main{display: flex;align-content: center ;}
+  p{display:flex ;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+   font-size: 300%; }
+ .btn{ 
+       size: 100%;
+            background-color: #4CAF50; /* vert */
+            color: white; /* texte blanc */
+            padding: 12px 24px; /* espace autour du texte */
+            border: none; /* pas de bordure */
+            border-radius: 8px; /* coins arrondis */
+            cursor: pointer; /* change le curseur au survol */
+            font-size: 60px;
+            transition: background-color 0.3s ease; /* effet de transition */
+         margin-top: 1200px;/* centre horizontalement */
+ }
+      
+  
+
+        
+     
